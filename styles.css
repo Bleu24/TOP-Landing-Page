@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -97,3 +102,126 @@ button {
     background-color: #3882f6;
 }
 
+.sub-heading {
+    text-wrap: wrap;
+    color: white;
+}
+
+
+div.body {
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family: 'Holtwood One SC', serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.info-child {
+    width: 200px;
+    text-align: center;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+div.info-text {
+    display:block;
+}
+
+div.info-box {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-bottom: 90px;
+}
+
+.motivation-box {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    margin-bottom: 90px;
+}
+
+.motivation {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 900px;
+    text-wrap: wrap; /*for good practice*/
+    margin-bottom: 10px;
+}
+
+.quote-by {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    width:900px;
+    text-align: right;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.modal {
+    background-color: #3882f6;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 150px;
+    border-radius: 10px;
+}
+
+
+
+.modal-texts {
+    color: white;
+}
+
+.modal-texts .modal-heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.modal-sub-heading {
+    font-size: 16px;
+}
+
+.modal button {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+}
