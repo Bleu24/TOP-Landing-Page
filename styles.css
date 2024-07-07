@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 0 300px;
+    padding: 0 150px;
     padding-bottom: 100px;
     gap: 50px;
     flex: 1 ;
@@ -41,7 +41,7 @@ div.bottom-bar div.left-side {
 }
 
 div.bottom-bar div.right-side {
-    width: 650px;
+    width: 550px;
     height: 250px;
     background-color: grey; 
     display: flex;
